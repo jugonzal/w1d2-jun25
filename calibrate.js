@@ -2,13 +2,18 @@
 // add them up
 // display final result
 
-let input = process.argv.slice(2);
-let total = 0;
+// in case I want to get data from command line
+// let input = process.argv.slice(2);
 
-for (i = 0; i < input.length; i++) {
-  console.log("i: ",i, parseInt(input[i]));
-  total = total + parseInt(input[i]);
-  console.log("total: ", total);
+let addThemUp = function(input) {
+  let total = 0;
+
+  for (i = 0; i < input.length; i++) {
+    // console.log("i: ",i, parseInt(input[i]));
+    total = total + parseInt(input[i]);
+    // console.log("total: ", total);
+  }  
+  return total
 }
 
-console.log("Result: ", total)
+console.log("First case: ", addThemUp(['+1','-3','+2','+1']));
