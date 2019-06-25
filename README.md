@@ -2,5 +2,7 @@
 ## Chronal Calibration for June cohort
 
 ### Requirements
-- req 1
-- req 2
+- collect a bunch of numbers
+- add them up
+- display final result
+
