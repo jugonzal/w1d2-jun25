@@ -8,13 +8,13 @@
 let addThemUp = function(input) {
   let total = 0;
 
-  for (i = 0; i < input.length; i++) {
+  for (let i = 0; i < input.length; i++) {
     // console.log("i: ",i, parseInt(input[i]));
     total = total + parseInt(input[i]);
     // console.log("total: ", total);
-  }  
-  return total
-}
+  }
+  return total;
+};
 
 console.log("First case: ", addThemUp(['+1','-3','+2','+1']));
 console.log("Second case: ", addThemUp(['+1', '+1', '+1']));
