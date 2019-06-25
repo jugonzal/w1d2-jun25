@@ -17,3 +17,5 @@ let addThemUp = function(input) {
 }
 
 console.log("First case: ", addThemUp(['+1','-3','+2','+1']));
+console.log("Second case: ", addThemUp(['+1', '+1', '+1']));
+console.log("Third case: ", addThemUp(['-1', '-2', '-3']));
